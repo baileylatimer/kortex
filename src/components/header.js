@@ -70,7 +70,7 @@ function Header({ siteTitle }) {
         </div>
       </div>
       <div className="hidden lg:flex font-base">
-        <Btn text="Contact"/>
+        <Btn text="Talk to Sales"/>
       </div>
     </nav>
   )

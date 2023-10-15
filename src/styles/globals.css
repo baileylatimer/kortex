@@ -8,14 +8,14 @@
   --color-bg: #000;
   --color-contrast-lower: rgba(12, 13, 15, 0.50);
   --color-primary: #E49DFE;
-  --font-base: 20px;
+  --font-base: 16px;
   --text-lg: 64px;
   --text-md: 49px;
 }
 
 @media(max-width:1023px) {
   :root {
-    --font-base: 13px;
+    --font-base: 14px;
     --text-lg: 42px;
     --text-md: 26px;
   }
@@ -106,8 +106,19 @@ p {
   src: url("../fonts/NeueMontreal-Regular.otf");
 }
 
+@font-face {
+  font-family: "Neue Machina";
+  src: url("../fonts/NeueMachina-Medium.otf");
+}
+
+@font-face {
+  font-family: "Supply";
+  src: url("../fonts/PPSupplyMono-Regular.otf");
+}
+
 :root {
-  --font-primary: "Neue Montreal", sans-serif;
+  --font-primary: "Neue Machina", sans-serif;
+  --font-secondary: "Supply", sans-serif;
 }
 
 body, h1, h2, h3, h4, h5, h6, a, li, p, span {
@@ -116,6 +127,15 @@ body, h1, h2, h3, h4, h5, h6, a, li, p, span {
   color: var(--color-contrast-higher)
 }
 
+p, body {
+  font-size:  var(--font-base);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+
 /* BUTTONS
 =========== */
 .btn {
@@ -123,6 +143,8 @@ body, h1, h2, h3, h4, h5, h6, a, li, p, span {
   border-radius: 2.625rem;
   padding: .5rem .8125rem ;
   background-color: var(--color-primary);
+  align-items: center;
+  min-width: 200px;
 }
 @media(min-width:1023px) {
   .btn {
@@ -293,19 +315,16 @@ li {
 }
 
 
-.cio {
-  position: absolute;
-  bottom: 220px;
-  right:20px;
-}
-
 .hero-desc {
   position: absolute;
   bottom: 40px;
-  left:40px;
-  max-width: 360px;
-  text-align: justify;
-}
+  right:40px;
+  max-width: 510px;
+
+
+  }
+
+
 @media(max-width:1023px) {
 .hero-desc {
   position: absolute;
@@ -314,6 +333,63 @@ li {
   max-width: 360px;
 }
 }
+
+.hero-desc-box {
+  text-align: justify;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  background: var(--color-contrast-lower);
+  box-shadow: 0px 3px 18px 0px rgba(0, 0, 0, 0.40);
+  backdrop-filter: blur(22px);
+}
+
+.hero-btn {
+  position: absolute;
+  bottom: 200px;
+  left: 40px;
+}
+
+.corner-1 {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  transform: scale(2);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+}
+.corner-2 {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  transform: scale(2);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+}
+.corner-3 {
+  position: absolute;
+  bottom: -4px;
+  left: -4px;
+  transform: scale(2);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+}
+.corner-4 {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  transform: scale(2);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+}
+
+
 
 .background-video {
   /* position: fixed; */
