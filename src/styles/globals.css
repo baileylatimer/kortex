@@ -251,7 +251,7 @@ footer p {
 }
 
 .bg-inverse{
-  background-color: var(--color-contrast-higher);
+  background-color: #0C0D0F;
   width: 100vw
 }
 
