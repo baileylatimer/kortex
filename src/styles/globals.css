@@ -464,6 +464,7 @@ li {
   display: block;
   width: 100%;
   min-height: 412px;
+  padding: 1em;
 }
 
 .project-card video {
