@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Hero />
 <div className="mt-24">
     <h1 className="text-center">A fully integrated suite of features</h1>
-<div className="grid grid-cols-2 lg:mt-20">
+<div className="grid grid-cols-2 lg:mt-20 mx-16">
   <ProjectCardHome link='/ai' cover={Heels}  title="AI" desc="AI technologies can be used to automate and optimize business processes, reduce operational costs, improve accuracy and efficiency, enhance customer experiences, and enable predictive analytics."/>
   <ProjectCardHome link='/blockchain' cover={Hhs4}  title="Blockchain" desc="Blockchain technologies can be used to enable secure and transparent transactions, reduce fraud and errors, enhance supply chain visibility and traceability, and increase trust and accountability."/>
 </div>
