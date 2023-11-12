@@ -143,7 +143,7 @@ p, body {
   font-size: var(--text-base);
   border-radius: 2.625rem;
   padding: .5rem .8125rem ;
-  background-color: var(--color-primary);
+  background-color: #E49DFE;
   align-items: center;
   min-width: 200px;
 }
@@ -463,6 +463,7 @@ li {
   border-left: 0;
   display: block;
   width: 100%;
+  min-height: 412px;
 }
 
 .project-card video {
@@ -472,6 +473,10 @@ li {
 .project-card video {
   height: 487px;
 }
+}
+
+.items-between {
+  align-items: space-between;
 }
 
 :root {

@@ -16,10 +16,12 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    <HomeAbout />
-<div className="flex flex-col lg:flex-row  lg:mt-20">
-  <ProjectCardHome link='/showreel/heels' cover={Heels}  title="Heels" desc="01"/>
-  <ProjectCardHome link='/showreel/hip-hop' cover={Hhs4}  title="Hip Hop" desc="02"/>
+<div className="mt-24">
+    <h1 className="text-center">A fully integrated suite of features</h1>
+<div className="grid grid-cols-2 lg:mt-20">
+  <ProjectCardHome link='/ai' cover={Heels}  title="AI" desc="AI technologies can be used to automate and optimize business processes, reduce operational costs, improve accuracy and efficiency, enhance customer experiences, and enable predictive analytics."/>
+  <ProjectCardHome link='/blockchain' cover={Hhs4}  title="Blockchain" desc="Blockchain technologies can be used to enable secure and transparent transactions, reduce fraud and errors, enhance supply chain visibility and traceability, and increase trust and accountability."/>
+</div>
 </div>
 
 

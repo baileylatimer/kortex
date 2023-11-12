@@ -9,12 +9,10 @@ const ProjectCardHome  = ({ title, desc, link, cover }) => {
   return (
     <li className=" relative"  >
       <Link to={link} className=" project-card">
-        <div className="video-container">
-          <BackgroundVideo video={cover}/>
-        </div>
-        <div class="flex justify-between my-4 mx-4">
-            <h1 class="">{title}</h1>
-            <h1 className="lg:mt-0 color-contrast-medium"id="card-title-2">{desc}</h1>
+
+        <div class="flex flex-col justify-between items-between my-4 mx-4 col-span-1 h-full">
+            <h1 className="mt-8">{title}</h1>
+            <p className="lg:mt-0 color-contrast-medium absolute bottom-8"id="card-title-2">{desc}</p>
         </div>
         </Link>
         {/* <CustomCursor /> */}
