@@ -50,16 +50,16 @@ function Header({ siteTitle }) {
           isExpanded ? `block` : `hidden`
         } w-full nav-open block lg:flex lg:items-center lg:w-auto mt-4 pt-4 lg:mt-0 lg:pt-0 px-d `}
       >
-        <div className="text-sm nav-links px-4 py-4">
+        <div className="text-sm nav-links">
           <Link
             to={`/showreel/all`}
-            className="block mt-4 mx-4 lg:inline-block lg:mt-0 "
+            className="block mt-4 lg:inline-block lg:mt-0  nav-link ml-0"
           >
             Support
           </Link>
           <Link
             to={`/about`}
-            className="block mt-4 mr-4 lg:inline-block lg:mt-0 "
+            className="block mt-4 lg:inline-block lg:mt-0 nav-link mr-0"
           >
             Software
           </Link>

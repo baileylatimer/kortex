@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `STUDIO–RO®`,
-    description: `STUDIO–RO is an award-winning dance practice founded by Rocio Colomer Jorda working across a mix of disciplines that includes Heels & Hip Hop.`,
+    title: `KORTEX LABS | Leading the now`,
+    description: `Revolutionize Your Tech with Kortex Labs: Leading GPT Development, NLP, and AI Consulting Services. Unleash the power of smart solutions, tailored to elevate your business in the AI-driven digital era. Connecting innovative minds to future-ready AI technologies today.`,
     author: `@latimer2k`,
   },
   flags: {
