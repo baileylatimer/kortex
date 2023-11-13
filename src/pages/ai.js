@@ -14,9 +14,9 @@ const AI = () => (
     <SEO title="AI" />
     <PageHeader title="AI"/>
     <h1 className="text-center">[Coming Soon]</h1>
-<div className="contact flex flex-col justify-center items-center py-24 lg:py-40">
+    <div className="contact flex flex-col justify-center items-center py-24 lg:py-40">
 
-</div>
+    </div>
 
   </Layout>
 )

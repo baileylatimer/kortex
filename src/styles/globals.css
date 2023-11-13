@@ -748,3 +748,11 @@ background-color: var(--color-contrast-higher);
 /* Add additional CSS rules to style the cursor element as desired */
 
 
+
+
+.video-section {
+  min-height: 500px;
+  margin: 0 2em;
+  background-color: #0C0D0F;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}

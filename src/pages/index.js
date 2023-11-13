@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import ProjectCardHome from "../components/project-card-home"
 import HomeAbout from "../components/home-about"
-
+import VideoSection from "../components/video-section"
 
 import AI from "../videos/ai1.mp4"
 import Blockchain from "../videos/ai2.mp4"
@@ -25,7 +25,7 @@ const IndexPage = () => (
   <ProjectCardHome link='/blockchain' cover={Blockchain}  title="Blockchain" desc="Blockchain technologies can be used to enable secure and transparent transactions, reduce fraud and errors, enhance supply chain visibility and traceability, and increase trust and accountability."/>
 </div>
 
-
+<VideoSection title="Building on-chain has never been easier" desc="Lorem ipsum dolor sit amet consectetur. Volutpat pulvinar egestas faucibus egestas mauris urna cras justo."/>
 
 <div className="grid grid-cols-1 lg:grid-cols-2 lg:mt-20 mx-4 lg:mx-16">
   <ProjectCardHome link='/rapid'  title="Rapid" desc="Ideal for experimental projects with lower volumes"/>
