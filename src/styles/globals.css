@@ -180,18 +180,20 @@ nav {
   position: fixed;
   width: calc(100vw - 80px);
   z-index: 99;
-  top: 0
+  top: 0;
+    background-color: var(--color-contrast-lower);
+  backdrop-filter: blur(10px);
 }
 
 .nav-links {
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-  background-color: var(--color-contrast-lower);
-  backdrop-filter: blur(10px);
-  box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.25) inset;
+
+
+}
+
+@media(max-width:1023px) {
+  /* .nav-links {
+    display: none;
+  } */
 }
 
 .nav-link {
@@ -310,7 +312,7 @@ li {
    border-top: 1px solid var(--color-contrast-higher)
   }
   nav a {
-    font-size: var(--text-md);
+    font-size: var(--text-base);
     margin-bottom: 30px
   }
 }

@@ -37,8 +37,8 @@ function Header({ siteTitle }) {
           className="flex items-center px-3 py-2 "
         >
 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="9" width="25" height="2" fill="black"/>
-<rect x="1" y="17" width="25" height="2" fill="black"/>
+<rect x="1" y="9" width="25" height="2" fill="white"/>
+<rect x="1" y="17" width="25" height="2" fill="white"/>
 </svg>
 
 
@@ -52,16 +52,22 @@ function Header({ siteTitle }) {
       >
         <div className="text-sm nav-links">
           <Link
-            to={`/showreel/all`}
+            to={`/support`}
             className="block mt-4 lg:inline-block lg:mt-0  nav-link ml-0"
           >
             Support
           </Link>
           <Link
-            to={`/about`}
+            to={`/software`}
             className="block mt-4 lg:inline-block lg:mt-0 nav-link mr-0"
           >
             Software
+          </Link>
+        <Link
+            to={`/case-studies`}
+            className="block mt-4 lg:inline-block lg:mt-0 nav-link mr-0"
+          >
+            Case Studies
           </Link>
 
           
