@@ -9,7 +9,7 @@ const Hero = props => (
 
 <div className="hero-text">
 <h1 className="text-xxl  hero-text-1">Leading</h1>
-<h1 className="text-xxl  hero-text-2 ml-24">the now</h1>
+<h1 className="text-xxl  hero-text-2 ml-8 lg:ml-24">the now</h1>
 </div>
 <Btn text="Talk to sales" type="hero-btn"/>
 <div className="hero-desc">

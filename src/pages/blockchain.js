@@ -9,16 +9,15 @@ import PageHeader from "../components/page-header"
 
 import HeroVideo from "../videos/hero.mp4"
 
-const ContactPage = () => (
+const AI = () => (
   <Layout>
-    <SEO title="Support" />
-    <PageHeader title="Support"/>
+    <SEO title="AI" />
+    <PageHeader title="AI"/>
 <div className="contact flex flex-col justify-center items-center py-24 lg:py-40">
-  <a tel="+1 (858) 776-8431">+1 (858) 776-8431</a>
-  <a mailto="hello@rocio.dance">hello@kortex.labs</a>
+
 </div>
 
   </Layout>
 )
 
-export default ContactPage
+export default AI

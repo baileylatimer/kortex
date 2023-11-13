@@ -67,9 +67,10 @@ p {
   font-size: 177px;
   line-height: 170px;
 }
-@media(max-width:1023px) {
+@media (max-width: 1023px) {
   .text-xxl {
-    font-size: 72px;
+    font-size: 68px;
+    line-height: 72px;
   }
 }
 
@@ -363,6 +364,13 @@ li {
   position: absolute;
   bottom: 200px;
   left: 40px;
+}
+
+@media(max-width:1023px) {
+  .hero-btn {
+    bottom: 350px;
+  left: 20px;
+  }
 }
 
 .corner-1 {

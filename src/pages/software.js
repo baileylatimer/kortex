@@ -14,9 +14,14 @@ import HeroVideo from "../videos/hero.mp4"
 const AboutPage = () => (
   <Layout>
     <SEO title="Software" />
-    <PageHeader title="Software"/>
-    <div className="flex w-full justify-center">
+
+    <h1 className="text-center  mt-48 mb-12 ">Creating smart-contracts has never been easier</h1>
+    <div className="w-full grid grid-cols-1 lg:grid-cols-2">
     <StaticImage placeholder="blurred" src="../images/ro-about.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
+    <div className="flex flex-col">
+    <StaticImage placeholder="blurred" src="../images/ro-about.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
+    <StaticImage placeholder="blurred" src="../images/ro-about.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
+    </div>
     </div>
     <div className="flex flex-col lg:flex-row">
       <TextCard text="STUDIO–RO is an award-winning dance practice working across a mix of disciplines that includes Heels & Hip hop."/>
