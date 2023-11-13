@@ -16,7 +16,7 @@
 
 @media(max-width:1023px) {
   :root {
-    --font-base: 14px;
+    --font-base: 12px;
     --text-lg: 42px;
     --text-md: 26px;
   }
@@ -368,7 +368,7 @@ li {
 
 @media(max-width:1023px) {
   .hero-btn {
-    bottom: 350px;
+      bottom: 280px;
   left: 20px;
   }
 }

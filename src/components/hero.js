@@ -13,7 +13,7 @@ const Hero = props => (
 </div>
 <Btn text="Talk to sales" type="hero-btn"/>
 <div className="hero-desc">
-<div className="hero-desc-box p-8">
+<div className="hero-desc-box p-4 lg:p-8">
 <svg className="corner-1"width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="4.41406" y="0.646447" width="5.32843" height="5.32843" transform="rotate(45 4.41406 0.646447)" fill="white" stroke="black" stroke-width="0.5"/>
 </svg>
