@@ -17,17 +17,16 @@ const AboutPage = () => (
 
     <h1 className="text-center  mt-48 mb-12 ">Creating smart-contracts has never been easier</h1>
     <div className="w-full grid grid-cols-1 lg:grid-cols-2">
-    <StaticImage placeholder="blurred" src="../images/ro-about.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
+    <StaticImage placeholder="blurred" src="../images/test-img.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
     <div className="flex flex-col">
-    <StaticImage placeholder="blurred" src="../images/ro-about.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
-    <StaticImage placeholder="blurred" src="../images/ro-about.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
+    <StaticImage placeholder="blurred" src="../images/test-img.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
+    <StaticImage placeholder="blurred" src="../images/test-img.jpg" alt="Rocio Colomer Jorda • Dance" objectFit="cover" height="1200" width="2000" />
     </div>
     </div>
     <div className="flex flex-col lg:flex-row">
-      <TextCard text="STUDIO–RO is an award-winning dance practice working across a mix of disciplines that includes Heels & Hip hop."/>
-      <TextCard text="Rocio Colomer Jorda has 15 years of dance experience. With influences from her home country of Spain, she now teaches in San Diego, CA."/>
+      <TextCard text="Lorem ipsum dolor sit amet consectetur. Volutpat pulvinar egestas faucibus egestas mauris urna cras justo."/>
+      <TextCard text="Lorem ipsum dolor sit amet consectetur. Volutpat pulvinar egestas faucibus egestas mauris urna cras justo."/>
     </div>
-    <ContactBanner link="/contact" title="Get in touch"/>
   </Layout>
 )
 
