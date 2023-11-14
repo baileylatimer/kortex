@@ -54,7 +54,7 @@ function Header({ siteTitle }) {
           <Link
             to={`/learn`}
             className="block mt-4 lg:inline-block lg:mt-0  nav-link ml-0"
-          >
+          > 
             Learn
           </Link>
           <Link

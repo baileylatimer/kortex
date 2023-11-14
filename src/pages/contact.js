@@ -18,7 +18,7 @@ const ContactPage = () => (
   <a mailto="hello@kortexlabs.ai">hello@kortexlabs.ai</a>
 </div>
 
-  </Layout>
+  </Layout> 
 )
 
 export default ContactPage
