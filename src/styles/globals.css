@@ -177,7 +177,7 @@ nav {
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
-  margin: 20px 40px;
+
   position: fixed;
   width: calc(100vw - 80px);
   z-index: 99;
@@ -752,7 +752,6 @@ background-color: var(--color-contrast-higher);
 
 .video-section {
   min-height: 500px;
-  margin: 0 2em;
   background-color: #0C0D0F;
   border: 1px solid rgba(255, 255, 255, 0.75);
 }

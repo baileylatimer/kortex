@@ -9,10 +9,10 @@ import PageHeader from "../components/page-header"
 
 import HeroVideo from "../videos/hero.mp4"
 
-const Support = () => (
+const News = () => (
   <Layout>
-    <SEO title="Support" />
-    <PageHeader title="Support"/>
+    <SEO title="News" />
+    <PageHeader title="News"/>
     <h1 className="text-center">[Coming Soon]</h1>
     <div className="contact flex flex-col justify-center items-center py-24 lg:py-40">
 
@@ -21,4 +21,4 @@ const Support = () => (
   </Layout>
 )
 
-export default Support
+export default News

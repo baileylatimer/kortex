@@ -9,7 +9,7 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between py-3 lg:p-6 mx-d mb-6 ">
+    <nav className="flex flex-wrap items-center justify-between py-3 lg:p-6 mx-d mb-6 mt-4 ">
       <div className="flex items-center text-white px-d ">
       <Link
             to={`/`}
@@ -52,10 +52,10 @@ function Header({ siteTitle }) {
       >
         <div className="text-sm nav-links">
           <Link
-            to={`/support`}
+            to={`/learn`}
             className="block mt-4 lg:inline-block lg:mt-0  nav-link ml-0"
           >
-            Support
+            Learn
           </Link>
           <Link
             to={`/software`}
