@@ -15,7 +15,7 @@ import AI from "../videos/ai3.mp4"
 const ContactPage = () => (
   <Layout>
     <SEO title="Learn" />
-    <h1 className="text-center  mt-48 mb-12 ">Creating smart-contracts has never been easier</h1>
+    <h1 className="text-center  mt-48 mb-12 ">Everything you need</h1>
     <div className="grid grid-cols-1 lg:grid-cols-2 lg:mt-20 mx-4 lg:mx-16">
       <ProjectCardHome link='/docs' cover={AI}  title="Docs" desc="Lorem ipsum dolor sit amet consectetur. Volutpat pulvinar egestas faucibus egestas mauris urna cras justo."/>
       <ProjectCardHome link='/support' cover={AI}  title="Support" desc="Lorem ipsum dolor sit amet consectetur. Volutpat pulvinar egestas faucibus egestas mauris urna cras justo."/>
